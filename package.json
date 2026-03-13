@@ -4,10 +4,21 @@
   "description": "CineMax - Premium Streaming Platform",
   "main": "index.html",
   "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'No build step required'",
     "start": "npx http-server -p 3000",
-    "dev": "npx http-server -p 3000"
+    "vercel-build": "echo 'Vercel build completed'"
   },
-  "keywords": ["streaming", "movies", "tv-shows", "cinema"],
+  "keywords": [
+    "streaming",
+    "movies",
+    "tv-shows",
+    "cinema"
+  ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }

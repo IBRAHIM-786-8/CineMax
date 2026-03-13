@@ -1,0 +1,13 @@
+{
+  "name": "cinemax",
+  "version": "1.0.0",
+  "description": "CineMax - Premium Streaming Platform",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000",
+    "dev": "npx http-server -p 3000"
+  },
+  "keywords": ["streaming", "movies", "tv-shows", "cinema"],
+  "author": "",
+  "license": "MIT"
+}
